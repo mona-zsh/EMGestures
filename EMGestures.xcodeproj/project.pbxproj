@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F907C5111AE5E2C2003B251A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F907C5101AE5E2C2003B251A /* main.m */; };
+		F907C5141AE5E2C2003B251A /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F907C5131AE5E2C2003B251A /* EMAppDelegate.m */; };
+		F907C5171AE5E2C2003B251A /* EMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F907C5161AE5E2C2003B251A /* EMViewController.m */; };
+		F907C51C1AE5E2C2003B251A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F907C51B1AE5E2C2003B251A /* Images.xcassets */; };
+		F907C51F1AE5E2C2003B251A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F907C51D1AE5E2C2003B251A /* LaunchScreen.xib */; };
+		F907C52B1AE5E2C2003B251A /* EMGesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F907C52A1AE5E2C2003B251A /* EMGesturesTests.m */; };
+		F907C5361AE5E3AB003B251A /* EMView.m in Sources */ = {isa = PBXBuildFile; fileRef = F907C5351AE5E3AB003B251A /* EMView.m */; };
+		F9F4C91E1AEF28830005D990 /* EMTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F4C91D1AEF28830005D990 /* EMTapGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F907C5251AE5E2C2003B251A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F907C5031AE5E2C2003B251A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F907C50A1AE5E2C2003B251A;
+			remoteInfo = EMGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F907C50B1AE5E2C2003B251A /* EMGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F907C50F1AE5E2C2003B251A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F907C5101AE5E2C2003B251A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F907C5121AE5E2C2003B251A /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		F907C5131AE5E2C2003B251A /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		F907C5151AE5E2C2003B251A /* EMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMViewController.h; sourceTree = "<group>"; };
+		F907C5161AE5E2C2003B251A /* EMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMViewController.m; sourceTree = "<group>"; };
+		F907C51B1AE5E2C2003B251A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F907C51E1AE5E2C2003B251A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F907C5241AE5E2C2003B251A /* EMGesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMGesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F907C5291AE5E2C2003B251A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F907C52A1AE5E2C2003B251A /* EMGesturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMGesturesTests.m; sourceTree = "<group>"; };
+		F907C5341AE5E3AB003B251A /* EMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMView.h; sourceTree = "<group>"; };
+		F907C5351AE5E3AB003B251A /* EMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMView.m; sourceTree = "<group>"; };
+		F907C5371AE5F096003B251A /* EMPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMPrefixHeader.pch; sourceTree = "<group>"; };
+		F9F4C91C1AEF28830005D990 /* EMTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTapGestureRecognizer.h; sourceTree = "<group>"; };
+		F9F4C91D1AEF28830005D990 /* EMTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTapGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F907C5081AE5E2C2003B251A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F907C5211AE5E2C2003B251A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F907C5021AE5E2C2003B251A = {
+			isa = PBXGroup;
+			children = (
+				F907C50D1AE5E2C2003B251A /* EMGestures */,
+				F907C5271AE5E2C2003B251A /* EMGesturesTests */,
+				F907C50C1AE5E2C2003B251A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F907C50C1AE5E2C2003B251A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F907C50B1AE5E2C2003B251A /* EMGestures.app */,
+				F907C5241AE5E2C2003B251A /* EMGesturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F907C50D1AE5E2C2003B251A /* EMGestures */ = {
+			isa = PBXGroup;
+			children = (
+				F907C5121AE5E2C2003B251A /* EMAppDelegate.h */,
+				F907C5131AE5E2C2003B251A /* EMAppDelegate.m */,
+				F907C5151AE5E2C2003B251A /* EMViewController.h */,
+				F907C5161AE5E2C2003B251A /* EMViewController.m */,
+				F907C51B1AE5E2C2003B251A /* Images.xcassets */,
+				F907C51D1AE5E2C2003B251A /* LaunchScreen.xib */,
+				F907C50E1AE5E2C2003B251A /* Supporting Files */,
+				F907C5341AE5E3AB003B251A /* EMView.h */,
+				F907C5351AE5E3AB003B251A /* EMView.m */,
+				F9F4C91C1AEF28830005D990 /* EMTapGestureRecognizer.h */,
+				F9F4C91D1AEF28830005D990 /* EMTapGestureRecognizer.m */,
+			);
+			path = EMGestures;
+			sourceTree = "<group>";
+		};
+		F907C50E1AE5E2C2003B251A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F907C50F1AE5E2C2003B251A /* Info.plist */,
+				F907C5101AE5E2C2003B251A /* main.m */,
+				F907C5371AE5F096003B251A /* EMPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F907C5271AE5E2C2003B251A /* EMGesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F907C52A1AE5E2C2003B251A /* EMGesturesTests.m */,
+				F907C5281AE5E2C2003B251A /* Supporting Files */,
+			);
+			path = EMGesturesTests;
+			sourceTree = "<group>";
+		};
+		F907C5281AE5E2C2003B251A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F907C5291AE5E2C2003B251A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F907C50A1AE5E2C2003B251A /* EMGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F907C52E1AE5E2C2003B251A /* Build configuration list for PBXNativeTarget "EMGestures" */;
+			buildPhases = (
+				F907C5071AE5E2C2003B251A /* Sources */,
+				F907C5081AE5E2C2003B251A /* Frameworks */,
+				F907C5091AE5E2C2003B251A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMGestures;
+			productName = EMGestures;
+			productReference = F907C50B1AE5E2C2003B251A /* EMGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F907C5231AE5E2C2003B251A /* EMGesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F907C5311AE5E2C2003B251A /* Build configuration list for PBXNativeTarget "EMGesturesTests" */;
+			buildPhases = (
+				F907C5201AE5E2C2003B251A /* Sources */,
+				F907C5211AE5E2C2003B251A /* Frameworks */,
+				F907C5221AE5E2C2003B251A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F907C5261AE5E2C2003B251A /* PBXTargetDependency */,
+			);
+			name = EMGesturesTests;
+			productName = EMGesturesTests;
+			productReference = F907C5241AE5E2C2003B251A /* EMGesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F907C5031AE5E2C2003B251A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mona Zhang";
+				TargetAttributes = {
+					F907C50A1AE5E2C2003B251A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F907C5231AE5E2C2003B251A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F907C50A1AE5E2C2003B251A;
+					};
+				};
+			};
+			buildConfigurationList = F907C5061AE5E2C2003B251A /* Build configuration list for PBXProject "EMGestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F907C5021AE5E2C2003B251A;
+			productRefGroup = F907C50C1AE5E2C2003B251A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F907C50A1AE5E2C2003B251A /* EMGestures */,
+				F907C5231AE5E2C2003B251A /* EMGesturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F907C5091AE5E2C2003B251A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F907C51F1AE5E2C2003B251A /* LaunchScreen.xib in Resources */,
+				F907C51C1AE5E2C2003B251A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F907C5221AE5E2C2003B251A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F907C5071AE5E2C2003B251A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F907C5171AE5E2C2003B251A /* EMViewController.m in Sources */,
+				F907C5361AE5E3AB003B251A /* EMView.m in Sources */,
+				F907C5141AE5E2C2003B251A /* EMAppDelegate.m in Sources */,
+				F9F4C91E1AEF28830005D990 /* EMTapGestureRecognizer.m in Sources */,
+				F907C5111AE5E2C2003B251A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F907C5201AE5E2C2003B251A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F907C52B1AE5E2C2003B251A /* EMGesturesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F907C5261AE5E2C2003B251A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F907C50A1AE5E2C2003B251A /* EMGestures */;
+			targetProxy = F907C5251AE5E2C2003B251A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F907C51D1AE5E2C2003B251A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F907C51E1AE5E2C2003B251A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F907C52C1AE5E2C2003B251A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F907C52D1AE5E2C2003B251A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F907C52F1AE5E2C2003B251A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EMGestures/EMPrefixHeader.pch;
+				INFOPLIST_FILE = EMGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F907C5301AE5E2C2003B251A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EMGestures/EMPrefixHeader.pch;
+				INFOPLIST_FILE = EMGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F907C5321AE5E2C2003B251A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EMGesturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMGestures.app/EMGestures";
+			};
+			name = Debug;
+		};
+		F907C5331AE5E2C2003B251A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EMGesturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EMGestures.app/EMGestures";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F907C5061AE5E2C2003B251A /* Build configuration list for PBXProject "EMGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907C52C1AE5E2C2003B251A /* Debug */,
+				F907C52D1AE5E2C2003B251A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F907C52E1AE5E2C2003B251A /* Build configuration list for PBXNativeTarget "EMGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907C52F1AE5E2C2003B251A /* Debug */,
+				F907C5301AE5E2C2003B251A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F907C5311AE5E2C2003B251A /* Build configuration list for PBXNativeTarget "EMGesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F907C5321AE5E2C2003B251A /* Debug */,
+				F907C5331AE5E2C2003B251A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F907C5031AE5E2C2003B251A /* Project object */;
+}

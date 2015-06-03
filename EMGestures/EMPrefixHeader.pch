@@ -1,0 +1,17 @@
+//
+//  EMPrefixHeader.pch
+//  EMGestures
+//
+//  Created by Mona Zhang on 4/20/15.
+//  Copyright (c) 2015 Mona Zhang. All rights reserved.
+//
+
+#ifndef EMGestures_EMPrefixHeader_pch
+#define EMGestures_EMPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define EMLog(fmt, ...) NSLog((@"%s (%d)\n" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+
+#endif
